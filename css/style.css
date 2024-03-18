@@ -193,9 +193,8 @@ body {
 
 .center-container-footer {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
+	flex-direction: column;
+	gap: 15px;
 	width: 95vw;
 	margin: auto;
 	padding: 4rem 0;
@@ -264,8 +263,6 @@ body {
 	}
 
 	.center-container-footer {
-		justify-content: space-between;
-		align-items: center;
 		padding: 2rem 0;
 	}
 }
@@ -294,8 +291,10 @@ body {
 	}
 
 	.center-container-footer {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
 		width: 960px;
-
 		padding: 0;
 	}
 	.fa-brands {
