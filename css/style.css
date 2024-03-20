@@ -40,7 +40,7 @@ body {
 
 .header-img {
 	position: relative;
-	width: 100vw;
+	width: 100%;
 	height: calc(100vh - 50px);
 	background-image: url(../img/header-lego-img1.jpg);
 	background-size: cover;
